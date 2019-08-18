@@ -1,0 +1,31 @@
+{
+  "name": "wow-stock",
+  "version": "0.0.5",
+  "description": "命令行看股票神器！自动识别持仓，显示当前盈亏",
+  "keywords": [
+    "stock",
+    "shares",
+    "quotation"
+  ],
+  "bin": {
+    "stock": "./bin/stock.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aweiu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aweiu/wow-stock"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.15.1",
+    "iconv-lite": "^0.4.21"
+  },
+  "devDependencies": {
+    "fecha": "^3.0.3",
+    "ffi": "^2.3.0"
+  }
+}

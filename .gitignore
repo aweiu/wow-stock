@@ -1,0 +1,4 @@
+node_modules
+.idea
+trader/dlls/trade.dll
+trader/dlls/trade-mock.dll
